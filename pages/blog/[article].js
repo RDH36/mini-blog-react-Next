@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Head from 'next/head'
 
-export default function article({ data }) {
+export default function Article({ data }) {
   console.log(data)
   if (!data) {
     return (
@@ -17,7 +17,6 @@ export default function article({ data }) {
   return (
     <>
       <Head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CODE.io | {data.title}</title>
       </Head>
