@@ -7,9 +7,9 @@ export default function Article({ data }) {
   if (!data) {
     return (
       <div className='container my-5'>
-        <div class="d-flex align-items-center">
+        <div className="d-flex align-items-center">
           <strong>Loading...</strong>
-          <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+          <div className="spinner-border ms-auto" role="status" aria-hidden="true"></div>
         </div>
       </div>
     )
